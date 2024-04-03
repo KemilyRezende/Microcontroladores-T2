@@ -12,14 +12,16 @@ Para cada um dos exercícios propostos, foi desenvolvido um circuito conectado a
 ## 1. Hello, World!
 Neste exercício foi proposto simular o circuito Olá, mundo no Arduino.
 O circuito inclui um display **LCD 16x2 I2C**, conforme ilustrado na imagem abaixo:
-<figure>
 <img src="Questão 1/Hello.png"/>
-<figcaption> Circuito Hello, World!</figcaption>
-</figure>
 Para desenvolver o algoritmo foi necessário instalar a biblioteca `LiquidCrystal_I2C.h`, que permite operar o display. A lógica consiste em escrever a mensagem “Hello, World!” no display, caracter a caracter.
 Disponível em: https://wokwi.com/projects/393436890856871937
 
 ## 2. Circuito com 2 leds conectados.
+Neste exercício foi proposto construir um circuito com dois botões e dois LEDs, um vermelho e outro verde, em que quando um botão é pressionado o LED vermelho acende enquanto o verde fica apagado e ao pressionar o outro isso se inverte, acendendo o verde e apagando o vermelho.
+Os componentes foram conectados de acordo com a imagem:
+<img src="Questão 2/LEDs.png"/>
+
+Disponível em: https://wokwi.com/projects/393439714258112513
 
 ## 3. Circuito com display de 7 seguimentos exibindo o número 9.
 
