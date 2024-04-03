@@ -15,7 +15,10 @@ Para cada um dos exercícios propostos, foi desenvolvido um circuito conectado a
 ## 1. Hello, World!
 Neste exercício foi proposto simular o circuito Olá, mundo no Arduino.
 O circuito inclui um display **LCD 16x2 I2C**, conforme ilustrado na imagem abaixo:
+<figure>
 <img src="Questão 1/Hello.png"/>
+<figcaption> Circuito Hello, World!</figcaption>
+</figure>
 Para desenvolver o algoritmo foi necessário instalar a biblioteca `LiquidCrystal_I2C.h`, que permite operar o display. A lógica consiste em escrever a mensagem “Hello, World!” no display, caracter a caracter.
 Disponível em: https://wokwi.com/projects/393436890856871937
 
