@@ -20,5 +20,11 @@ Para desenvolver o algoritmo foi necessário instalar a biblioteca `LiquidCrysta
 Disponível em: https://wokwi.com/projects/393436890856871937
 
 ## 2. Circuito com 2 leds conectados.
+
+## 3. Circuito com display de 7 seguimentos exibindo o número 9.
+
+## 4. Circuito com display de 7 seguimentos contando de 0 a 9.
+
+# Conclusões
 # Referências
 [1]  WOKWI. Documentação Wokwi. Disponível em: https://docs.wokwi.com/pt-BR/. Acesso em: 02/03/2024.
