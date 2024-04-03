@@ -20,6 +20,7 @@ O circuito inclui um display **LCD 16x2 I2C**, conforme ilustrado na imagem abai
 <figcaption> Circuito Hello, World!</figcaption>
 </figure>
 Para desenvolver o algoritmo foi necessário instalar a biblioteca `LiquidCrystal_I2C.h`, que permite operar o display. A lógica consiste em escrever a mensagem “Hello, World!” no display, caracter a caracter.
+
 Disponível em: https://wokwi.com/projects/393436890856871937
 
 ## 2. Circuito com 2 leds conectados.
@@ -30,6 +31,7 @@ Os componentes foram conectados de acordo com a imagem:
 <figcaption> Circuito Hello, World!</figcaption>
 </figure>
 O algoritmo controla dois LEDs (um verde e um vermelho) com base em dois botões. Quando o botão verde é pressionado, o LED verde acende e o vermelho apaga. Por outro lado, quando o botão vermelho é pressionado, o LED vermelho acende e o verde apaga. Em resumo, o código alterna os LEDs conforme os botões são pressionados, demonstrando o uso de entradas e saídas em um projeto Arduino.
+
 Disponível em: https://wokwi.com/projects/393439714258112513
 
 ## 3. Circuito com display de 7 seguimentos exibindo o número 9.
