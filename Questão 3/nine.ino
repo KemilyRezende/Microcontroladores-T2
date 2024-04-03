@@ -1,3 +1,4 @@
+// Onde cada segmento do display está conectado
 int a = 2;
 int b = 3;
 int c = 4;
@@ -6,6 +7,7 @@ int e = 6;
 int f = 7;
 int g = 8;
 void setup() {
+  // Define-os como saídas
   pinMode(a,OUTPUT);
   pinMode(b,OUTPUT);
   pinMode(c,OUTPUT);
@@ -16,6 +18,7 @@ void setup() {
 }
 
 void nine(){
+  // Função que mostra o número 9 no display
   digitalWrite(a,LOW);
   digitalWrite(b,LOW);
   digitalWrite(c,LOW);
@@ -26,5 +29,6 @@ void nine(){
 }
 
 void loop() {
+  // chama a função
   nine();
 }
