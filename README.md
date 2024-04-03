@@ -25,7 +25,10 @@ Disponível em: https://wokwi.com/projects/393436890856871937
 ## 2. Circuito com 2 leds conectados.
 Neste exercício foi proposto construir um circuito com dois botões e dois LEDs, um vermelho e outro verde, em que quando um botão é pressionado o LED vermelho acende enquanto o verde fica apagado e ao pressionar o outro isso se inverte, acendendo o verde e apagando o vermelho.
 Os componentes foram conectados de acordo com a imagem:
+<figure>
 <img src="Questão 2/LEDs.png"/>
+<figcaption> Circuito Hello, World!</figcaption>
+</figure>
 O algoritmo controla dois LEDs (um verde e um vermelho) com base em dois botões. Quando o botão verde é pressionado, o LED verde acende e o vermelho apaga. Por outro lado, quando o botão vermelho é pressionado, o LED vermelho acende e o verde apaga. Em resumo, o código alterna os LEDs conforme os botões são pressionados, demonstrando o uso de entradas e saídas em um projeto Arduino.
 Disponível em: https://wokwi.com/projects/393439714258112513
 
