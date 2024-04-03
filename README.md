@@ -35,7 +35,13 @@ O algoritmo controla dois LEDs (um verde e um vermelho) com base em dois botões
 Disponível em: https://wokwi.com/projects/393439714258112513
 
 ## 3. Circuito com display de 7 seguimentos exibindo o número 9.
-
+Neste exercício, a proposta foi conectar um display de 7 segmentos à placa e exibir o número 9. O objetivo era criar um algoritmo que definisse as saídas necessárias e uma função nine que determinasse quais segmentos estarão ligados e desligados para representar o número 9, conforme ilustrado na imagem abaixo.
+<figure>
+<img src="Questão 3/nine.png"/>
+<figcaption> Circuito do Display de 7 segmentos para exibir o número 9.</figcaption>
+</figure>
+Para alcançar esse objetivo, foi necessário configurar as saídas adequadas e desenvolver a função `nine`, responsável por determinar os segmentos que devem estar ativos para exibir o número 9 no display.
+Disponível em: https://wokwi.com/projects/393471100470938625
 ## 4. Circuito com display de 7 seguimentos contando de 0 a 9.
 
 # Conclusões
