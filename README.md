@@ -55,6 +55,8 @@ Para desenvolver o algoritmo, foi necessário configurar as entradas e saídas a
 Disponível em: https://wokwi.com/projects/393472748362845185
 
 # Conclusões
+O trabalho proporcionou uma abordagem prática e teórica dos conceitos essenciais de entradas e saídas em microcontroladores por meio da plataforma Wokwi em conjunto com o Arduino. Os quatro exercícios desenvolvidos permitiram explorar circuitos eletrônicos de diferentes complexidades, desde acionamentos simples de LEDs até o controle de displays de sete segmentos e botões. A utilização do Wokwi demonstrou ser crucial, oferecendo uma simulação precisa e acessível que possibilitou a compreensão detalhada dos circuitos e a aplicação direta dos conceitos aprendidos.
+
 
 # Referências
 [1]  WOKWI. Documentação Wokwi. Disponível em: https://docs.wokwi.com/pt-BR/. Acesso em: 02/03/2024.
