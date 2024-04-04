@@ -57,6 +57,7 @@ Disponível em: https://wokwi.com/projects/393472748362845185
 # Conclusões
 O trabalho proporcionou uma abordagem prática e teórica dos conceitos essenciais de entradas e saídas em microcontroladores por meio da plataforma Wokwi em conjunto com o Arduino. Os quatro exercícios desenvolvidos permitiram explorar circuitos eletrônicos de diferentes complexidades, desde acionamentos simples de LEDs até o controle de displays de sete segmentos e botões. A utilização do Wokwi demonstrou ser crucial, oferecendo uma simulação precisa e acessível que possibilitou a compreensão detalhada dos circuitos e a aplicação direta dos conceitos aprendidos.
 
+Cada exercício apresentou desafios únicos, incentivando o desenvolvimento de habilidades práticas e a compreensão teórica dos circuitos eletrônicos. A plataforma Wokwi serviu como uma ferramenta valiosa para o aprendizado, facilitando a construção e teste de circuitos complexos e estimulando a criatividade no campo da eletrônica embarcada. Em suma, este trabalho destacou a importância das simulações virtuais na educação e no desenvolvimento de projetos com microcontroladores, fornecendo uma base sólida para futuras explorações e aplicações práticas.
 
 # Referências
 [1]  WOKWI. Documentação Wokwi. Disponível em: https://docs.wokwi.com/pt-BR/. Acesso em: 02/03/2024.
