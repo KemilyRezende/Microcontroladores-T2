@@ -1,4 +1,5 @@
 # Resumo
+O relatório centrou-se no estudo e aplicação dos conceitos de entradas e saídas em microcontroladores, utilizando a plataforma Wokwi em conjunto com o Arduino. Através de quatro exercícios práticos, exploramos desde a configuração básica de displays LCD até o controle de contadores com displays de sete segmentos e botões. O uso do Wokwi como ferramenta de simulação proporcionou uma experiência de aprendizado imersiva e prática na elaboração e teste de circuitos eletrônicos, destacando a importância das entradas e saídas em projetos de eletrônica embarcada.
 
 # Introdução
 Este trabalho tem como objetivo fornecer uma compreensão aprofundada dos conceitos fundamentais de entradas e saídas em microcontroladores por meio de quatro simulações realizadas na plataforma Wokwi utilizando o Arduino. Para o mesmo, foram propostos os seguintes exercícios:
