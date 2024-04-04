@@ -27,7 +27,8 @@ O circuito inclui um display **LCD 16x2 I2C**, conforme ilustrado na imagem abai
 </figure>
 Para desenvolver o algoritmo foi necessário instalar a biblioteca `LiquidCrystal_I2C.h`, que permite operar o display. A lógica consiste em escrever a mensagem “Hello, World!” no display, caracter a caracter. Implementado conforme o código a seguir:
 
-```#include <LiquidCrystal_I2C.h>
+```ino
+#include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
@@ -47,7 +48,8 @@ void loop() {
     i++;
   }
   delay(120);
-}```
+}
+```
 
 Disponível em: https://wokwi.com/projects/393436890856871937
 
@@ -60,7 +62,8 @@ Os componentes foram conectados de acordo com a imagem:
 </figure>
 O algoritmo controla dois LEDs (um verde e um vermelho) com base em dois botões. Quando o botão verde é pressionado, o LED verde acende e o vermelho apaga. Por outro lado, quando o botão vermelho é pressionado, o LED vermelho acende e o verde apaga. Em resumo, o código alterna os LEDs conforme os botões são pressionados, demonstrando o uso de entradas e saídas em um projeto Arduino. Implementado conforme o código a seguir:
 
-```// Variáveis representando os LEDs e botões de acordo com as entradas da placa
+```ino
+// Variáveis representando os LEDs e botões de acordo com as entradas da placa
 int green = 2;
 int red = 3;
 int btn1 = 4;
@@ -94,7 +97,8 @@ void loop() {
     digitalWrite(red,HIGH); // Alterna o estado do LED vermelho
     digitalWrite(green, LOW);
   }
-}```
+}
+```
 
 Disponível em: https://wokwi.com/projects/393439714258112513
 
@@ -106,7 +110,8 @@ Neste exercício, a proposta foi conectar um display de 7 segmentos à placa e e
 </figure>
 Para alcançar esse objetivo, foi necessário configurar as saídas adequadas e desenvolver a função `nine`, responsável por determinar os segmentos que devem estar ativos para exibir o número 9 no display. Implementado conforme o código a seguir:
 
-```// Onde cada segmento do display está conectado
+```ino
+// Onde cada segmento do display está conectado
 int a = 2;
 int b = 3;
 int c = 4;
@@ -139,7 +144,8 @@ void nine(){
 void loop() {
   // chama a função
   nine();
-}```
+}
+```
 
 Disponível em: https://wokwi.com/projects/393471100470938625
 
@@ -151,7 +157,8 @@ Neste exercício, a tarefa consistiu em conectar um display de 7 segmentos à pl
 </figure>
 Para desenvolver o algoritmo, foi necessário configurar as entradas e saídas apropriadas e definir as funções para exibir cada número no display. Além disso, foi essencial elaborar a lógica do contador, lendo cada um dos botões para aumentar ou diminuir o valor. Ao atingir o valor -1, o contador retorna a 9, e ao alcançar 10, retorna a 1, criando um loop contínuo. Implementado conforme o código a seguir:
 
-```// Onde cada segmento do display está conectado
+```ino
+// Onde cada segmento do display está conectado
 int a = 2;
 int b = 3;
 int c = 4;
@@ -327,7 +334,8 @@ void loop() {
   else if (op > 9) op = 0; // Quando maior que 9 volta a 0
   else if (op < 0) op = 9; // Quando menor que zero volta a 9
   delay(100);
-}```
+}
+```
 
 Disponível em: https://wokwi.com/projects/393472748362845185
 
