@@ -28,7 +28,7 @@ Neste exercício foi proposto construir um circuito com dois botões e dois LEDs
 Os componentes foram conectados de acordo com a imagem:
 <figure>
 <img src="Questão 2/LEDs.png"/>
-<figcaption> Circuito Hello, World!</figcaption>
+<figcaption> Circuito Dois LEDs!</figcaption>
 </figure>
 O algoritmo controla dois LEDs (um verde e um vermelho) com base em dois botões. Quando o botão verde é pressionado, o LED verde acende e o vermelho apaga. Por outro lado, quando o botão vermelho é pressionado, o LED vermelho acende e o verde apaga. Em resumo, o código alterna os LEDs conforme os botões são pressionados, demonstrando o uso de entradas e saídas em um projeto Arduino.
 
@@ -43,6 +43,12 @@ Neste exercício, a proposta foi conectar um display de 7 segmentos à placa e e
 Para alcançar esse objetivo, foi necessário configurar as saídas adequadas e desenvolver a função `nine`, responsável por determinar os segmentos que devem estar ativos para exibir o número 9 no display.
 Disponível em: https://wokwi.com/projects/393471100470938625
 ## 4. Circuito com display de 7 seguimentos contando de 0 a 9.
+Nesse exercício foi proposto conectar um display de 7 segmentos à placa e criar um contador de 0 a 9 controlado por dois botões um que incremente e outro que decremente o valor conforme o demonstrado na imagem abaixo
+<figure>
+<img src="Questão 4/counter.png"/>
+<figcaption> Circuito do Display de 7 segmentos para exibir o número 9.</figcaption>
+</figure>
+Para desenvolver o algoritmo foi necessário configurar as entradas e saídas adequadas e definir as funções para exibir cada número no display. Também foi necessário desenvolver a lógica do contador lendo cada um dos botões para incrementar ou decrementar o valor e ao atingir o valor -1 retornar a 9 e 10 retornar a 1 criando um loop.
 
 # Conclusões
 
