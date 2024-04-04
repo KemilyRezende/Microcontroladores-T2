@@ -49,7 +49,7 @@ Neste exercício, a tarefa consistiu em conectar um display de 7 segmentos à pl
 <img src="Questão 4/counter.png"/>
 <figcaption> Circuito do Display de 7 segmentos para contar de 0 a 9.</figcaption>
 </figure>
-
+Para desenvolver o algoritmo, foi necessário configurar as entradas e saídas apropriadas e definir as funções para exibir cada número no display. Além disso, foi essencial elaborar a lógica do contador, lendo cada um dos botões para aumentar ou diminuir o valor. Ao atingir o valor -1, o contador retorna a 9, e ao alcançar 10, retorna a 1, criando um loop contínuo.
 
 # Conclusões
 
