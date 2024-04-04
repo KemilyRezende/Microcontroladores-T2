@@ -42,13 +42,14 @@ Neste exercício, a proposta foi conectar um display de 7 segmentos à placa e e
 </figure>
 Para alcançar esse objetivo, foi necessário configurar as saídas adequadas e desenvolver a função `nine`, responsável por determinar os segmentos que devem estar ativos para exibir o número 9 no display.
 Disponível em: https://wokwi.com/projects/393471100470938625
+
 ## 4. Circuito com display de 7 seguimentos contando de 0 a 9.
-Nesse exercício foi proposto conectar um display de 7 segmentos à placa e criar um contador de 0 a 9 controlado por dois botões um que incremente e outro que decremente o valor conforme o demonstrado na imagem abaixo
+Neste exercício, a tarefa consistiu em conectar um display de 7 segmentos à placa e criar um contador de 0 a 9 controlado por dois botões, um para incrementar e outro para decrementar o valor, conforme mostrado na imagem abaixo.
 <figure>
 <img src="Questão 4/counter.png"/>
-<figcaption> Circuito do Display de 7 segmentos para exibir o número 9.</figcaption>
+<figcaption> Circuito do Display de 7 segmentos para contar de 0 a 9.</figcaption>
 </figure>
-Para desenvolver o algoritmo foi necessário configurar as entradas e saídas adequadas e definir as funções para exibir cada número no display. Também foi necessário desenvolver a lógica do contador lendo cada um dos botões para incrementar ou decrementar o valor e ao atingir o valor -1 retornar a 9 e 10 retornar a 1 criando um loop.
+
 
 # Conclusões
 
